@@ -1,0 +1,7 @@
+Partners: Josh & Caitlin
+
+Data Structures to be used:
+We will have an array that represents the sml memory and then two maps, one that links variables to their memory address and one that links simple line numbers to their sml index in memory
+
+Design strategy:
+We have already finished the backbone of our compiler and have implemented all of our major commands. In the future, debugging and optimization will be split amongst the two of us by sharing the code after class and going over the changes added when we are in class.

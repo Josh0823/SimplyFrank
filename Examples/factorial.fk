@@ -1,0 +1,9 @@
+10 input num
+11 if num < 0 goto 90
+15 let result = 1
+20 let result = result*num
+30 let num = num - 1
+40 if num == 0 goto 80
+50 goto 20
+80 print result
+90 end

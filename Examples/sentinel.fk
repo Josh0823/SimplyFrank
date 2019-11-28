@@ -1,0 +1,12 @@
+10 rem Sentinel controlled loop to find largest value x
+15 input n
+20 rem User terminates before data entered - end program
+25 if n == -9999 goto 75
+30 let x = n
+35 rem Loop to keep entering data, and print largest when terminated
+40 input n
+45 if n == -9999 goto 70
+50 if n <= x goto 65
+55 let x = n
+65 goto 40
+75 end

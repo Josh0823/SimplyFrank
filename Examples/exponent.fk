@@ -1,0 +1,9 @@
+10 input x
+11 input n
+15 let result = 1
+20 let result = result * x
+25 let n = n - 1
+30 if n == 0 goto 40
+35 goto 20
+40 print result
+50 end
