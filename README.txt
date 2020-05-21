@@ -4,8 +4,10 @@ README!
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-Welcome to our language, SimplyFrank! Our developers at Frankie's Fan Club Inc. have worked tirelessly to present you with an easy to read, easy to write, easy to modify language (we <3 u deg). Make sure to read through this guide before attempting to write anything, and hopefully we can promise minimal errors and/or core dumps!
+Welcome to our language, SimplyFrank! This project was completed in lieu of a final exam for C++ Applications, taught by Mrs. Bunn at the SC Governor's School for Science and Math.
 
+Included in the files is a compiler and an assembler that will compile and then excute a simulated programming language, which we named SimplyFrank.
+The syntax is based on BASIC and the code compiles into a simulated assembly language called SML that was specified by our project description. Below you can find the commands we implemented.
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Syntax:
@@ -30,17 +32,17 @@ The following are valid commands in SimplyFrank:
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-Common Known Errors / Helpful Tips
-	- files must have .fk as the file extension
+How to Run / Helpful Tips
+	- files written in SimplyFrank must have .fk as the file extension
 	- compile files by typing './frankc <filename.fk>'
 	- execute the assembly by then typing './frank <filename>'
 	- when writing an if statement, putting parenthesis around the statement (Ex. if (x>4)) will generate an error
-	- order of operations works for let commands
-	- using the go to command, you cannot tell the program to go to a variable storing a line number, you must only use numbers
+	- order of operations (PEMDAS) works for let commands
+	- when using the goto command, you cannot tell the program to go to a variable storing a line number, you must only use literal numbers
 	- and/or commands are not valid in conditional statements
-	- do NOT yell at the computer if your code doesn't do what you want, it has feelings, and Frankie will cry. 
-	- really though infinite loops are still possible to create pls don't try it
+	- please take a look at the included Example folder to see some SimplyFrank code in action
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Josh Geden & Caitlin Harrington
+Completed Spring 2019

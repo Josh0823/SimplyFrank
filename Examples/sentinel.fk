@@ -9,4 +9,5 @@
 50 if n <= x goto 65
 55 let x = n
 65 goto 40
+70 print x
 75 end
